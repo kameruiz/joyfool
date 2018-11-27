@@ -1,0 +1,278 @@
+body {
+	margin-left: 2%;
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
+	height: 100%;
+	color: #999;
+}
+#confetti{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+#bgimg {
+	display: block;
+	float: right; 
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 65vw;
+	min-width:900px;
+	max-width: 950px;
+	height: 100%;
+	min-height: 920px;
+	max-height: 1020px;
+	z-index: -2;
+}
+#logo {
+	width: 560px;
+	max-height: 30%;
+	max-width:40%;
+	z-index: 1;
+}
+nav p {
+	display: inline-block;
+	background-color: white;
+	border-radius: 1em;
+	font-size: 2.1em;
+	letter-spacing: 2px;
+	margin-top: -20px;
+	margin-right: 7px;
+	opacity: 0.9;
+	padding:3px;
+}
+nav {
+	margin-left: -30px;
+}
+nav a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #999;
+	width: 70px;
+	padding: 6px;
+}
+#gallery {
+		margin-left: 8%;
+}
+#container {
+	border-radius: 0em 13em 1em 0em; 
+	background-color: #FFF;
+	padding: 10px;
+	max-width: 1100px;
+	min-width: 400px;
+	max-height: 600px;
+	min-height: 450px;
+	overflow: auto;
+	}
+/* HOME*/
+#screenshot {
+	height: 75%;
+	width: 75%;
+	float: left;
+	margin-right: 10px;
+}
+p.wip {
+	font-size:1.3em;
+}
+#date {
+	font-size: 0.9em
+}
+h1#title {
+	font-variant: small-caps;
+	font-weight: 100;
+	font-size: 2.3em;
+	color: #999;
+}
+/* GALLERY */
+.gallerytabs {
+	font-size: 1.4em;
+	letter-spacing: 2px;
+	line-height: 2em;
+	list-style-type: none;	
+	opacity: 0.9;
+}
+ul.gallerytabs {
+	float: left;
+	margin-right: 50px;
+}
+
+#main {
+	height: 620px;
+	max-width: 56%;
+	min-width: 50%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.item img  {
+	float: left;
+	margin: 2px;
+	height: 13vw;
+	min-height: 200px;
+	border: 1px solid #FFF;
+}﻿
+a.tabs {
+	background-color: white;
+	text-decoration: none;
+	border-radius: 1em;
+	padding:3px;
+	margin-bottom: 20px;
+	width: 150px;
+	color: #999;
+}
+	/* VIDEOS */
+#describe {
+	position: relative;
+	top: -17px;
+	font-size: 1.2em;
+	width: 95%;
+	line-height: 1.3em;
+}
+#vidwrap{
+	border-radius: 0em 13em 1em 0em; 
+	background-color: #FFF;
+	max-width: 55%;
+}
+.video {
+	border: 3px solid #FFF;
+	margin-right: 20px;
+}
+#extratext{
+	background: #FFF;
+	border-top-right-radius: 6px;
+	margin-bottom: -1px;
+}
+/* QUESTIONS*/
+#myInput {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 1.2em;
+	width: 250px;
+}
+ul.faq {
+	padding: 0px;
+	margin-right: 7px;
+	list-style-type: none;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	overflow-x: auto;
+}
+a {
+	text-decoration: none;
+	color: #555;
+}
+#scroll { 
+	overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: rgba(0,0,0,0.35);
+}
+#faqtext {
+	height: 300px;
+	overflow: auto;
+}
+.question {
+	font-weight: bold;
+	margin-bottom: -0.8em;
+}
+.answer {
+	font-style: italic;
+}
+/* CONTACT */
+#contactwrap {
+	overflow-x: auto;
+}
+ul#servicelist{
+	float: left;
+	list-style-type: circle;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	margin-left: 2em;
+	margin-right: 6em;
+	padding: 5px;
+}
+.contact {
+	font-size: 1.3em;
+	height: 2em;
+  	border: #FFF;
+}
+input#form {
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 7px;
+	border: 1px solid;
+	border-color: #FFF;
+	width: 313px;
+	height: 42px;
+	background: #ff3333; 
+}
+input#form::placeholder{
+  color: #FFF;
+}
+#mailform {
+	margin-top: -1em;
+	display: inline-block;
+	position: static;
+}
+#submit{
+	width: 200px;
+	height: 95px;
+	font-size: 1.3em;
+	border-color: #FFF;
+	background: #ffca00;  
+  	border:none;
+}
+#buttontext {
+	color: #FFF;
+}
+textarea.contact {
+	resize: none; 
+	height: 10em;
+	width: 25em;
+	background: #1aafff;
+	margin-top: -5px;
+}
+textarea::placeholder{
+  color: #FFF;
+}
+/* Social */
+div.social {
+	position: fixed;
+	bottom: 0px;
+	min-width:400px;
+}
+.social img {
+	max-width: 35px;
+	max-height: 35px;
+	padding: 10px;
+	float: left;
+	background-color: #FFF;
+}
+#youtube {
+	border-top-right-radius: 25px;
+}
+#youtubevideo{
+	border-top-right-radius: 0px;
+}
+/* Copyright */
+p#copyright {
+	text-align: right;
+	margin: 0;
+	padding: 5px 10px;
+	right: 0px;
+	bottom: 0px;
+	color: #999;
+	position: fixed;
+	width: 100vw;
+	z-index: -2;
+}
