@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/kameruiz/joyfool/issues"
   },
-  "homepage": "https://github.com/kameruiz/joyfool#readme"
+  "homepage": "https://github.com/kameruiz/joyfool#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1"
+  }
 }
