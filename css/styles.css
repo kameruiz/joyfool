@@ -99,9 +99,6 @@ ul.gallerytabs {
 	float: left;
 	margin-right: 50px;
 }
-.gallerytabs a.tabs.active {
-	color: #3590d1;
-}
 
 #main {
 	height: 620px;
