@@ -1,0 +1,19 @@
+{
+  "name": "joyfool",
+  "version": "1.0.0",
+  "description": "The Joyfool's website!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kameruiz/joyfool.git"
+  },
+  "author": "kameruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kameruiz/joyfool/issues"
+  },
+  "homepage": "https://github.com/kameruiz/joyfool#readme"
+}
