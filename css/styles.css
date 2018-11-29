@@ -70,11 +70,18 @@ nav a:hover {
 	min-width: 400px;
 	}
 /* HOME*/
+#latest {
+	min-height: 75vh;
+}
+#latest .side-by-side {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
 #screenshot {
-	height: 75%;
-	width: 75%;
-	float: left;
-	margin-right: 10px;
+	align-self: center;
+	margin-right: 1.8em;
 }
 p.wip {
 	font-size:1.3em;
@@ -273,4 +280,13 @@ p#copyright {
 	position: fixed;
 	width: 100vw;
 	z-index: -2;
+}
+
+@media screen and (max-width: 800px) {
+	#latest .side-by-side {
+		flex-direction: column;
+	}
+	#screenshot {
+		width: 75%;
+	}
 }
