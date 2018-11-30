@@ -82,6 +82,7 @@ nav a:hover {
 #screenshot {
 	align-self: center;
 	margin-right: 1.8em;
+	max-width: 800px;
 }
 p.wip {
 	font-size:1.3em;
@@ -287,6 +288,6 @@ p#copyright {
 		flex-direction: column;
 	}
 	#screenshot {
-		width: 75%;
+		max-width: 75%;
 	}
 }
